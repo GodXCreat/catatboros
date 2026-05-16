@@ -1,0 +1,420 @@
+build-apk	UNKNOWN STEP	﻿2026-05-15T22:48:13.5983998Z Current runner version: '2.334.0'
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6008145Z ##[group]Runner Image Provisioner
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6009348Z Hosted Compute Agent
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6009950Z Version: 20260213.493
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6010505Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6011266Z Build Date: 2026-02-13T00:28:41Z
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6011897Z Worker ID: {56325f2e-da7a-424f-8bac-fb56f28f9d30}
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6012580Z Azure Region: westus
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6013059Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6014530Z ##[group]Operating System
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6015127Z Ubuntu
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6015546Z 24.04.4
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6016118Z LTS
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6016532Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6017019Z ##[group]Runner Image
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6017593Z Image: ubuntu-24.04
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6018109Z Version: 20260513.135.3
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6019724Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260513.135/images/ubuntu/Ubuntu2404-Readme.md
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6021188Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260513.135
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6022084Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6023122Z ##[group]GITHUB_TOKEN Permissions
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6024922Z Contents: write
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6025596Z Metadata: read
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6026180Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6028247Z Secret source: Actions
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6029186Z Prepare workflow directory
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6355153Z Prepare all required actions
+build-apk	UNKNOWN STEP	2026-05-15T22:48:13.6392252Z Getting action download info
+build-apk	UNKNOWN STEP	2026-05-15T22:48:14.1941921Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+build-apk	UNKNOWN STEP	2026-05-15T22:48:14.3401849Z Download action repository 'actions/setup-java@v4' (SHA:c1e323688fd81a25caa38c78aa6df2d33d3e20d9)
+build-apk	UNKNOWN STEP	2026-05-15T22:48:14.8775921Z Download action repository 'subosito/flutter-action@v2' (SHA:1a449444c387b1966244ae4d4f8c696479add0b2)
+build-apk	UNKNOWN STEP	2026-05-15T22:48:15.1401135Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+build-apk	UNKNOWN STEP	2026-05-15T22:48:15.2490420Z Download action repository 'softprops/action-gh-release@v2' (SHA:3bb12739c298aeb8a4eeaf626c5b8d85266b0e65)
+build-apk	UNKNOWN STEP	2026-05-15T22:48:15.6730530Z Getting action download info
+build-apk	UNKNOWN STEP	2026-05-15T22:48:15.8383789Z Download action repository 'actions/cache@v5' (SHA:27d5ce7f107fe9357f9df03efb73ab90386fccae)
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0047238Z Complete job name: build-apk
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0832276Z ##[group]Run actions/checkout@v4
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0833469Z with:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0834200Z   repository: GodXCreat/catatboros
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0835268Z   token: ***
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0835945Z   ssh-strict: true
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0836665Z   ssh-user: git
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0837400Z   persist-credentials: true
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0838105Z   clean: true
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0839015Z   sparse-checkout-cone-mode: true
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0839750Z   fetch-depth: 1
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0840620Z   fetch-tags: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0841273Z   show-progress: true
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0841962Z   lfs: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0842647Z   submodules: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0843343Z   set-safe-directory: true
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.0844336Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2072113Z Syncing repository: GodXCreat/catatboros
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2074260Z ##[group]Getting Git version info
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2075134Z Working directory is '/home/runner/work/catatboros/catatboros'
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2076381Z [command]/usr/bin/git version
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2138718Z git version 2.54.0
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2165467Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2179198Z Temporarily overriding HOME='/home/runner/work/_temp/757c20b2-4677-4c4c-bb26-50d853b432b0' before making global git config changes
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2180615Z Adding repository directory to the temporary git global config as a safe directory
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2192838Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/catatboros/catatboros
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2239969Z Deleting the contents of '/home/runner/work/catatboros/catatboros'
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2243912Z ##[group]Initializing the repository
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2248696Z [command]/usr/bin/git init /home/runner/work/catatboros/catatboros
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2357961Z hint: Using 'master' as the name for the initial branch. This default branch name
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2359636Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2360666Z hint: to use in all of your new repositories, which will suppress this warning,
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2361487Z hint: call:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2362044Z hint:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2362730Z hint: 	git config --global init.defaultBranch <name>
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2363457Z hint:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2364350Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2365818Z hint: 'development'. The just-created branch can be renamed via this command:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2367073Z hint:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2368122Z hint: 	git branch -m <name>
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2369564Z hint:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2370884Z hint: Disable this message with "git config set advice.defaultBranchName false"
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2372795Z Initialized empty Git repository in /home/runner/work/catatboros/catatboros/.git/
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2379067Z [command]/usr/bin/git remote add origin https://github.com/GodXCreat/catatboros
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2419989Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2421697Z ##[group]Disabling automatic garbage collection
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2424609Z [command]/usr/bin/git config --local gc.auto 0
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2451571Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2452534Z ##[group]Setting up auth
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2457711Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2489468Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2856932Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.2886756Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.3098383Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.3127700Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.3352354Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.3386739Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.3388474Z ##[group]Fetching the repository
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.3396427Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +45bb5e027f3a1d7cb4ebce2aadfc417c3a4a4a29:refs/remotes/origin/main
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7635944Z From https://github.com/GodXCreat/catatboros
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7637562Z  * [new ref]         45bb5e027f3a1d7cb4ebce2aadfc417c3a4a4a29 -> origin/main
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7672911Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7674606Z ##[group]Determining the checkout info
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7676366Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7681343Z [command]/usr/bin/git sparse-checkout disable
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7722868Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7749696Z ##[group]Checking out the ref
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7753583Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7928434Z Switched to a new branch 'main'
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7931823Z branch 'main' set up to track 'origin/main'.
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7938367Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7973987Z [command]/usr/bin/git log -1 --format=%H
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.7995393Z 45bb5e027f3a1d7cb4ebce2aadfc417c3a4a4a29
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8279813Z ##[group]Run actions/setup-java@v4
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8280534Z with:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8281106Z   distribution: temurin
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8281712Z   java-version: 17
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8282294Z   java-package: jdk
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8282869Z   check-latest: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8283511Z   server-id: github
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8284148Z   server-username: GITHUB_ACTOR
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8284855Z   server-password: GITHUB_TOKEN
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8285493Z   overwrite-settings: true
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8286109Z   job-status: success
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8286860Z   token: ***
+build-apk	UNKNOWN STEP	2026-05-15T22:48:16.8287461Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0378481Z ##[group]Installed distributions
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0526461Z Resolved Java 17.0.19+10 from tool-cache
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0527778Z Setting Java 17.0.19+10 as the default
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0541201Z Creating toolchains.xml for JDK version 17 from temurin
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0617053Z Writing to /home/runner/.m2/toolchains.xml
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0617977Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0618456Z Java configuration:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0619800Z   Distribution: temurin
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0620898Z   Version: 17.0.19+10
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0622305Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0623262Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0624385Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0642185Z Creating settings.xml with server-id: github
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0647284Z Writing to /home/runner/.m2/settings.xml
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0938691Z ##[group]Run subosito/flutter-action@v2
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0939595Z with:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0940150Z   channel: stable
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0940712Z   cache: true
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0941284Z   architecture: X64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0941891Z   pub-cache-path: default
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0942500Z   dry-run: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0943170Z   git-source: https://github.com/flutter/flutter.git
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0943867Z env:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0944577Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0945540Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.0946328Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1065119Z ##[group]Run chmod +x "$GITHUB_ACTION_PATH/setup.sh"
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1065958Z ^[[36;1mchmod +x "$GITHUB_ACTION_PATH/setup.sh"^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1110156Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1110920Z env:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1111659Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1112618Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1113406Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1271170Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh -p \
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1271943Z ^[[36;1m$GITHUB_ACTION_PATH/setup.sh -p \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1272628Z ^[[36;1m  -n '' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1273202Z ^[[36;1m  -f '' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1273775Z ^[[36;1m  -a 'X64' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1274368Z ^[[36;1m  -k '' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1274933Z ^[[36;1m  -c '' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1275490Z ^[[36;1m  -l '' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1276081Z ^[[36;1m  -d 'default' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1276799Z ^[[36;1m  -g 'https://github.com/flutter/flutter.git' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1277510Z ^[[36;1m  stable^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1314197Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1314932Z env:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1315651Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1316597Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.1317385Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3490428Z ##[group]Run actions/cache@v5
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3490865Z with:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3491298Z   path: /opt/hostedtoolcache/flutter/stable-3.41.9-x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3491965Z   key: flutter-linux-stable-3.41.9-x64-00b0c91f06209d9e4a41f71b7a512d6eb3b9c694
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3492767Z   enableCrossOsArchive: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3493200Z   fail-on-cache-miss: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3493607Z   lookup-only: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3493983Z   save-always: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3494350Z env:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3494817Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3495512Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.3496074Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.7387805Z Cache not found for input keys: flutter-linux-stable-3.41.9-x64-00b0c91f06209d9e4a41f71b7a512d6eb3b9c694
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8309152Z ##[group]Run actions/cache@v5
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8309498Z with:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8309727Z   path: /home/runner/.pub-cache
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8310174Z   key: flutter-pub-linux-stable-3.41.9-x64-00b0c91f06209d9e4a41f71b7a512d6eb3b9c694-
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8310655Z   enableCrossOsArchive: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8310931Z   fail-on-cache-miss: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8311196Z   lookup-only: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8311423Z   save-always: false
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8311630Z env:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8311944Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8312445Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:17.8312839Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2183371Z Cache not found for input keys: flutter-pub-linux-stable-3.41.9-x64-00b0c91f06209d9e4a41f71b7a512d6eb3b9c694-
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2276344Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh \
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2276664Z ^[[36;1m$GITHUB_ACTION_PATH/setup.sh \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2276921Z ^[[36;1m  -n '3.41.9' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2277117Z ^[[36;1m  -a 'x64' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2277401Z ^[[36;1m  -c '/opt/hostedtoolcache/flutter/stable-3.41.9-x64' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2277733Z ^[[36;1m  -d '/home/runner/.pub-cache' \^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2277985Z ^[[36;1m  stable^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2310817Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2311158Z env:
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2311457Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2311919Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.2312265Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.3801274Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.3802102Z                                  Dload  Upload   Total   Spent    Left  Speed
+build-apk	UNKNOWN STEP	2026-05-15T22:48:18.3802495Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:48:19.1926006Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+build-apk	UNKNOWN STEP	2026-05-15T22:48:20.1939885Z   2 1448M    2 40.7M    0     0  50.1M      0  0:00:28 --:--:--  0:00:28 50.1M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:21.1946893Z   8 1448M    8  120M    0     0  66.5M      0  0:00:21  0:00:01  0:00:20 66.4M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:22.1948103Z  13 1448M   13  200M    0     0  71.1M      0  0:00:20  0:00:02  0:00:18 71.1M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:23.1928239Z  19 1448M   19  285M    0     0  74.9M      0  0:00:19  0:00:03  0:00:16 74.9M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:24.1932711Z  24 1448M   24  360M    0     0  74.9M      0  0:00:19  0:00:04  0:00:15 74.9M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:25.1920871Z  30 1448M   30  447M    0     0  77.0M      0  0:00:18  0:00:05  0:00:13 81.3M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:26.1919936Z  35 1448M   35  510M    0     0  74.9M      0  0:00:19  0:00:06  0:00:13 78.0M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:27.1925198Z  40 1448M   40  587M    0     0  75.1M      0  0:00:19  0:00:07  0:00:12 77.4M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:28.1920169Z  46 1448M   46  669M    0     0  75.9M      0  0:00:19  0:00:08  0:00:11 76.7M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:29.1934020Z  52 1448M   52  753M    0     0  76.8M      0  0:00:18  0:00:09  0:00:09 78.5M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:30.1940457Z  58 1448M   58  848M    0     0  78.4M      0  0:00:18  0:00:10  0:00:08 80.1M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:31.1926244Z  64 1448M   64  938M    0     0  79.4M      0  0:00:18  0:00:11  0:00:07 85.5M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:32.1958510Z  70 1448M   70 1021M    0     0  79.7M      0  0:00:18  0:00:12  0:00:06 86.8M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:33.1984057Z  75 1448M   75 1100M    0     0  79.6M      0  0:00:18  0:00:13  0:00:05 86.1M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:34.1926432Z  78 1448M   78 1133M    0     0  76.5M      0  0:00:18  0:00:14  0:00:04 75.9M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:35.1920033Z  81 1448M   81 1180M    0     0  74.6M      0  0:00:19  0:00:15  0:00:04 66.3M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:36.1919407Z  86 1448M   86 1248M    0     0  74.2M      0  0:00:19  0:00:16  0:00:03 61.9M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:37.1960886Z  92 1448M   92 1336M    0     0  75.0M      0  0:00:19  0:00:17  0:00:02 62.9M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:37.9206552Z  97 1448M   97 1418M    0     0  75.3M      0  0:00:19  0:00:18  0:00:01 63.5M
+build-apk	UNKNOWN STEP	2026-05-15T22:48:37.9207644Z 100 1448M  100 1448M    0     0  74.1M      0  0:00:19  0:00:19 --:--:-- 66.6M
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.5592037Z ##[group]Run flutter --version
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.5592330Z ^[[36;1mflutter --version^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.5626190Z shell: /usr/bin/bash -e {0}
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.5626422Z env:
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.5626732Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.5627213Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.5627676Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.41.9-x64/flutter
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.5628034Z   PUB_CACHE: /home/runner/.pub-cache
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.5628300Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8095791Z Flutter 3.41.9 • channel stable • https://github.com/flutter/flutter.git
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8096907Z Framework • revision 00b0c91f06 (2 weeks ago) • 2026-04-29 10:03:19 -0700
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8098720Z Engine • hash 9161402dc0e134b3fb5adee5046b6e84b1a5e1c1 (revision 42d3d75a56) (17 days ago) • 2026-04-28 17:31:55.000Z
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8100202Z Tools • Dart 3.11.5 • DevTools 2.54.2
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8172365Z ##[group]Run flutter create --platforms=android --project-name catatboros --org com.catatboros .
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8173105Z ^[[36;1mflutter create --platforms=android --project-name catatboros --org com.catatboros .^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8206363Z shell: /usr/bin/bash -e {0}
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8206593Z env:
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8206873Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8207381Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8207863Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.41.9-x64/flutter
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8208225Z   PUB_CACHE: /home/runner/.pub-cache
+build-apk	UNKNOWN STEP	2026-05-15T22:49:29.8208451Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.6387892Z Recreating project ....
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.6971280Z   analysis_options.yaml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7069246Z   catatboros.iml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7079318Z   .gitignore (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7100225Z   .idea/modules.xml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7101069Z   .idea/libraries/Dart_SDK.xml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7112398Z   .idea/libraries/KotlinJavaRuntime.xml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7123081Z   .idea/workspace.xml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7136250Z   .idea/runConfigurations/main_dart.xml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7143971Z   android/build.gradle.kts (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7152661Z   android/app/src/main/kotlin/com/catatboros/catatboros/MainActivity.kt (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7164095Z   android/app/build.gradle.kts (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7175815Z   android/catatboros_android.iml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7189073Z   android/.gitignore (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7196260Z   android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7203588Z   android/app/src/main/res/mipmap-hdpi/ic_launcher.png (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7209902Z   android/app/src/main/res/values-night/styles.xml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7216601Z   android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7221808Z   android/app/src/main/res/mipmap-xhdpi/ic_launcher.png (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7228151Z   android/app/src/main/res/mipmap-mdpi/ic_launcher.png (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7232900Z   android/app/src/main/res/drawable-v21/launch_background.xml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7237297Z   android/app/src/debug/AndroidManifest.xml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7243116Z   android/app/src/profile/AndroidManifest.xml (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7248302Z   android/settings.gradle.kts (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7254607Z   android/gradle/wrapper/gradle-wrapper.properties (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7261240Z   test/widget_test.dart (created)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:34.7684362Z Resolving dependencies...
+build-apk	UNKNOWN STEP	2026-05-15T22:49:35.1849427Z Downloading packages...
+build-apk	UNKNOWN STEP	2026-05-15T22:49:39.9988574Z Got dependencies.
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2552845Z Wrote 28 files.
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2553537Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2553837Z All done!
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2562080Z You can find general documentation for Flutter at: https://docs.flutter.dev/
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2563082Z Detailed API documentation is available at: https://api.flutter.dev/
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2564135Z If you prefer video documentation, consider: https://www.youtube.com/c/flutterdev
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2564790Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2564991Z In order to run your application, type:
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2565348Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2565486Z   $ flutter run
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2565695Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2565911Z Your application code is in ./lib/main.dart.
+build-apk	UNKNOWN STEP	2026-05-15T22:49:40.2566279Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:49:41.2596679Z ##[group]Run flutter pub get
+build-apk	UNKNOWN STEP	2026-05-15T22:49:41.2597002Z ^[[36;1mflutter pub get^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:49:41.2630433Z shell: /usr/bin/bash -e {0}
+build-apk	UNKNOWN STEP	2026-05-15T22:49:41.2630646Z env:
+build-apk	UNKNOWN STEP	2026-05-15T22:49:41.2630931Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:49:41.2631411Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:49:41.2631856Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.41.9-x64/flutter
+build-apk	UNKNOWN STEP	2026-05-15T22:49:41.2632202Z   PUB_CACHE: /home/runner/.pub-cache
+build-apk	UNKNOWN STEP	2026-05-15T22:49:41.2632433Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:49:41.4226545Z Resolving dependencies...
+build-apk	UNKNOWN STEP	2026-05-15T22:49:41.5608373Z Downloading packages...
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2059192Z   csv 6.0.0 (8.0.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2059645Z   file_picker 10.3.10 (11.0.2 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2060030Z   flutter_local_notifications 19.5.0 (21.0.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2060527Z   flutter_local_notifications_linux 6.0.0 (8.0.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2061038Z   flutter_local_notifications_platform_interface 9.1.0 (11.0.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2061533Z   flutter_local_notifications_windows 1.0.3 (3.0.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2061931Z   google_fonts 6.3.3 (8.1.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2062217Z   meta 1.17.0 (1.18.2 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2062509Z   native_toolchain_c 0.17.6 (0.18.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2062826Z   share_plus 11.1.0 (13.1.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2063162Z   share_plus_platform_interface 6.1.0 (7.1.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2063510Z   timezone 0.10.1 (0.11.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2063973Z   vector_math 2.2.0 (2.3.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2064481Z   win32 5.15.0 (6.2.0 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2064912Z   xml 6.6.1 (7.0.1 available)
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2065375Z Got dependencies!
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2065963Z 15 packages have newer versions incompatible with dependency constraints.
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.2066510Z Try `flutter pub outdated` for more information.
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.4940239Z ##[group]Run flutter build apk --release
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.4940579Z ^[[36;1mflutter build apk --release^[[0m
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.4974118Z shell: /usr/bin/bash -e {0}
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.4974343Z env:
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.4974643Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.4975124Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.4975575Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.41.9-x64/flutter
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.4975940Z   PUB_CACHE: /home/runner/.pub-cache
+build-apk	UNKNOWN STEP	2026-05-15T22:49:43.4976351Z ##[endgroup]
+build-apk	UNKNOWN STEP	2026-05-15T22:51:19.5040078Z Running Gradle task 'assembleRelease'...                        
+build-apk	UNKNOWN STEP	2026-05-15T22:51:19.5041181Z Checking the license for package NDK (Side by side) 26.1.10909125 in /usr/local/lib/android/sdk/licenses
+build-apk	UNKNOWN STEP	2026-05-15T22:51:19.5890098Z License for package NDK (Side by side) 26.1.10909125 accepted.
+build-apk	UNKNOWN STEP	2026-05-15T22:51:19.5893224Z Preparing "Install NDK (Side by side) 26.1.10909125 v.26.1.10909125".
+build-apk	UNKNOWN STEP	2026-05-15T22:51:34.8883628Z "Install NDK (Side by side) 26.1.10909125 v.26.1.10909125" ready.
+build-apk	UNKNOWN STEP	2026-05-15T22:51:34.8885990Z Installing NDK (Side by side) 26.1.10909125 in /usr/local/lib/android/sdk/ndk/26.1.10909125
+build-apk	UNKNOWN STEP	2026-05-15T22:51:34.8887072Z "Install NDK (Side by side) 26.1.10909125 v.26.1.10909125" complete.
+build-apk	UNKNOWN STEP	2026-05-15T22:51:35.1919973Z "Install NDK (Side by side) 26.1.10909125 v.26.1.10909125" finished.
+build-apk	UNKNOWN STEP	2026-05-15T22:51:47.5911387Z Warning: The plugin file_picker requires Android SDK version 36 or higher.
+build-apk	UNKNOWN STEP	2026-05-15T22:51:47.5940010Z For more information about build configuration, see https://flutter.dev/to/review-gradle-config.
+build-apk	UNKNOWN STEP	2026-05-15T22:52:04.7884163Z Warning: The plugin flutter_plugin_android_lifecycle requires Android SDK version 36 or higher.
+build-apk	UNKNOWN STEP	2026-05-15T22:52:04.7903041Z For more information about build configuration, see https://flutter.dev/to/review-gradle-config.
+build-apk	UNKNOWN STEP	2026-05-15T22:52:26.7887327Z Warning: The plugin local_auth_android requires Android SDK version 36 or higher.
+build-apk	UNKNOWN STEP	2026-05-15T22:52:26.7912699Z For more information about build configuration, see https://flutter.dev/to/review-gradle-config.
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.3950605Z Your project is configured to compile against Android SDK 35, but the following plugin(s) require to be compiled against a higher Android SDK version:
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.3952003Z Warning: The plugin sqflite_android requires Android SDK version 36 or higher.
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.3986206Z For more information about build configuration, see https://flutter.dev/to/review-gradle-config.
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4009442Z - file_picker compiles against Android SDK 36
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4026540Z - flutter_plugin_android_lifecycle compiles against Android SDK 36
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4027533Z - local_auth_android compiles against Android SDK 36
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4035038Z - sqflite_android compiles against Android SDK 36
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4035941Z Both build.gradle and build.gradle.kts exist, so
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4036750Z build.gradle.kts is ignored. This is likely a mistake.
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4037868Z Fix this issue by compiling against the highest Android SDK version (they are backward compatible).
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4039359Z Add the following to /home/runner/work/catatboros/catatboros/android/app/build.gradle:
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4040183Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4040445Z     android {
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4040897Z         compileSdk = 36
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4041333Z         ...
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4041705Z     }
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4055503Z Your project is configured with Android NDK 26.1.10909125, but the following plugin(s) depend on a different Android NDK version:
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4056821Z - jni requires Android NDK 28.2.13676358
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4057530Z Both build.gradle and build.gradle.kts exist, so
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4058303Z build.gradle.kts is ignored. This is likely a mistake.
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4059536Z Fix this issue by using the highest Android NDK version (they are backward compatible).
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4091732Z Add the following to /home/runner/work/catatboros/catatboros/android/app/build.gradle:
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4103832Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4104157Z     android {
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4104630Z         ndkVersion = "28.2.13676358"
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4105211Z         ...
+build-apk	UNKNOWN STEP	2026-05-15T22:52:42.4105633Z     }
+build-apk	UNKNOWN STEP	2026-05-15T22:52:52.3882643Z lib/services/security_service.dart:23:24: Error: Not a constant expression.
+build-apk	UNKNOWN STEP	2026-05-15T22:52:52.3883925Z         options: const AuthenticationOptions(stickyAuth: true, biometricOnly: false),
+build-apk	UNKNOWN STEP	2026-05-15T22:52:52.3886740Z                        ^^^^^^^^^^^^^^^^^^^^^
+build-apk	UNKNOWN STEP	2026-05-15T22:52:52.3888027Z lib/services/security_service.dart:23:9: Error: No named parameter with the name 'options'.
+build-apk	UNKNOWN STEP	2026-05-15T22:52:52.3889558Z         options: const AuthenticationOptions(stickyAuth: true, biometricOnly: false),
+build-apk	UNKNOWN STEP	2026-05-15T22:52:52.3890356Z         ^^^^^^^
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.5882198Z Target kernel_snapshot_program failed: Exception
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.5885650Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6898155Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6899447Z FAILURE: Build failed with an exception.
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6900228Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6900679Z * What went wrong:
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6901517Z Execution failed for task ':app:compileFlutterBuildRelease'.
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6903264Z > Process 'command '/opt/hostedtoolcache/flutter/stable-3.41.9-x64/flutter/bin/flutter'' finished with non-zero exit value 1
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6904392Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6904811Z * Try:
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6905519Z > Run with --stacktrace option to get the stack trace.
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6906724Z > Run with --info or --debug option to get more log output.
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6907628Z > Run with --scan to get full insights.
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6908499Z > Get more help at https://help.gradle.org.
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6909617Z 
+build-apk	UNKNOWN STEP	2026-05-15T22:53:01.6910112Z BUILD FAILED in 3m 17s
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.1221112Z Running Gradle task 'assembleRelease'...                          198.1s
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.1316867Z Gradle task assembleRelease failed with exit code 1
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.1390016Z ##[error]Process completed with exit code 1.
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.1584364Z Post job cleanup.
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.1666451Z Post job cleanup.
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.3529219Z Post job cleanup.
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.4549791Z [command]/usr/bin/git version
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.4593629Z git version 2.54.0
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.4637868Z Temporarily overriding HOME='/home/runner/work/_temp/a670bb89-e71f-434a-9a51-1a8e6239eeab' before making global git config changes
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.4639793Z Adding repository directory to the temporary git global config as a safe directory
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.4652441Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/catatboros/catatboros
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.4689584Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.4725940Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.4999788Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.5025339Z http.https://github.com/.extraheader
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.5038287Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.5069151Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.5287496Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.5318699Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.5641852Z Cleaning up orphan processes
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.6052216Z Terminate orphan process: pid (2786) (java)
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.6092607Z Terminate orphan process: pid (2909) (java)
+build-apk	UNKNOWN STEP	2026-05-15T22:53:02.6120377Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-java@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

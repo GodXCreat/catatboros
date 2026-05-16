@@ -1,16 +1,24 @@
 import 'dart:convert';
+
 import 'package:crypto/crypto.dart';
 import 'package:local_auth/local_auth.dart';
 
 class SecurityService {
   final LocalAuthentication _auth = LocalAuthentication();
 
-  String hashPin(String pin) => sha256.convert(utf8.encode('catatboros-v1:$pin')).toString();
-  bool verifyPin(String pin, String hash) => hashPin(pin) == hash;
+  String hashPin(String pin) {
+    return sha256.convert(utf8.encode('catatboros-v1:$pin')).toString();
+  }
+
+  bool verifyPin(String pin, String hash) {
+    return hashPin(pin) == hash;
+  }
 
   Future<bool> canUseBiometric() async {
     try {
-      return await _auth.canCheckBiometrics || await _auth.isDeviceSupported();
+      final canCheck = await _auth.canCheckBiometrics;
+      final supported = await _auth.isDeviceSupported();
+      return canCheck || supported;
     } catch (_) {
       return false;
     }
@@ -20,7 +28,6 @@ class SecurityService {
     try {
       return await _auth.authenticate(
         localizedReason: 'Buka CatatBoros dengan biometrik perangkat',
-        options: const AuthenticationOptions(stickyAuth: true, biometricOnly: false),
       );
     } catch (_) {
       return false;
